@@ -1,0 +1,39 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: azure;
+}
+.links {
+    font-size: 20px;
+    }
+
+.titles {
+    color: darkslategray;
+    background-color: rgb(173, 230, 173);
+}
+
+h1 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    
+    }
+
+h2 {
+    font-size: 25px;
+    }
+
+p {
+    font-size: 18px
+}
+
+li {
+    font-size: 20px
+}
+
+img {
+    height: auto;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
