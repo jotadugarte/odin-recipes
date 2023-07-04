@@ -1,21 +1,33 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: azure;
+    max-width: 500px;
+    margin: 20px auto;
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .links {
     font-size: 20px;
+    line-height: 140%;
     }
+
+.list-links {
+    display: inline;
+    margin: 0px 20px;
+}
 
 .titles {
     color: darkslategray;
     background-color: rgb(173, 230, 173);
+    padding: 8px 16px;
 }
 
 h1 {
     text-align: center;
     font-weight: 800;
     font-size: 30px;
-    
+    padding: 16px 16px;
     }
 
 h2 {
@@ -23,11 +35,22 @@ h2 {
     }
 
 p {
-    font-size: 18px
+    font-size: 18px;
+    padding: 20px;
+    line-height: 140%;
+}
+
+ul {
+    list-style: none;
+}
+
+.ingredients {
+    list-style: inside;
 }
 
 li {
-    font-size: 18px
+    font-size: 18px;
+    line-height: 140%;
 }
 
 img {
